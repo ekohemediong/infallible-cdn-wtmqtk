@@ -1,10 +1,11 @@
 {
-  "name": "nodejs-sandbox",
+  "name": "blank-cloud-sandbox-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "The official Blank Cloud Sandbox Template by the CodeSandbox team",
   "main": "index.html",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,6 @@
   },
   "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "nodemon": "^2.0.20"
-  },
-  "dependencies": {}
+    "serve": "^11.2.0"
+  }
 }
